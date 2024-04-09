@@ -1,0 +1,44 @@
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #f5cf03;
+  z-index: 50;
+  transform-origin: 0%;
+}
+.active {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background: rgba(0, 0, 0, .7); 
+  display: flex;
+  height: auto;
+  justify-content: center;
+  width: 100%;
+  top: 0px;
+  z-index: 30;
+  align-items: center;
+  margin-bottom: 1.5rem/* 24px */;
+  position: fixed;
+}
+.navbar {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  width: 100%;
+  top: 0px;
+  z-index: 30;
+  align-items: center;
+  margin-bottom: 1.5rem/* 24px */;
+  position: fixed;
+}
+.dark .active span {
+  color: white;
+}
+.dark .active #search{
+  color: white;
+}
+.dark .active {
+  background: rgba(149, 142, 142, 0.7);
+}

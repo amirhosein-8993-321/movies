@@ -1,0 +1,22 @@
+body {
+    background-color: #000;
+    direction: rtl;
+}
+.dark body {
+    background-color: #FFFFFF;
+};
+body::-webkit-scrollbar {
+    display: none;
+  }
+  html {
+    scrollbar-width: none;
+  }
+  .progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: var(--red);
+    transform-origin: 0%;
+  }
